@@ -1,8 +1,6 @@
-const youngInfo = {
-	name: "Young",
-	age: 25,
-	gender:"Male",
-	isHandsome: true
+function sayHello(friend) {
+    console.log("Hello!", friend);
 }
 
-console.log(youngInfo, console);
+sayHello("Young");
+console.log("Hi!")
