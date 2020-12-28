@@ -1,10 +1,9 @@
 const title = document.querySelector("#title");
 
 const BASE_COLOR = "rgb(255, 228, 196)";
-const OTHER_COLOR = "rgb(180, 227, 237)"
-// or "rgb(52, 73, 94)";
+const OTHER_COLOR = "rgb(180, 227, 237)";
+//console.log("It worked")
 function handleClick() {
-    console.log("It worked")
     const currentColor = title.style.color;
     if (currentColor === BASE_COLOR){
         title.style.color = OTHER_COLOR;
@@ -26,5 +25,6 @@ function handleOffline() {
 function handleOnline() {
     console.log("It's online");
 }
+
 window.addEventListener("offline", handleOffline );
 window.addEventListener("online", handleOnline );
