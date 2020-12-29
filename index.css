@@ -1,7 +1,11 @@
 body {
-  background-color: rgb(60, 179, 113);
+  background-color: #3cb371;
 }
 
 h1 {
-  color: rgb(255, 228, 196);
+  color: #ffe4c4;
+}
+
+.color {
+  color: #7f8c8d;
 }
